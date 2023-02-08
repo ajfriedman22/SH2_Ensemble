@@ -36,8 +36,23 @@
 ## PLCC
 | Domain | Method | Resolution | Kinetic Data |
 | -----|-----|-----|-----|
+|[2pld](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/0092867494901600?via%3Dihub) | NMR(1 conformer) | N\A | |
+|[2ple](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/0092867494901600?via%3Dihub) | NMR(18 conformers) | N\A | |
+|[4k45](https://pubs-acs-org.colorado.idm.oclc.org/doi/10.1021/bi400433b) | X-ray diffraction | 1.5A |  |
+|[5tq1](https://pubs-acs-org.colorado.idm.oclc.org/doi/10.1021/acs.biochem.7b00023) | X-ray diffraction | 1.49A |  |
 
 ## Src
+| Domain | Method | Resolution | Kinetic Data |
+| -----|-----|-----|-----|
+|[1hcs](https://pubs-acs-org.colorado.idm.oclc.org/doi/abs/10.1021/bi00007a003) | NMR(1 conformer) | N\A | | 
+|[1hct](https://pubs-acs-org.colorado.idm.oclc.org/doi/abs/10.1021/bi00007a003) | NMR(23 conformers) | N\A | |
+|[1lcj](https://www-nature-com.colorado.idm.oclc.org/articles/362087a0) | X-ray diffraction | 1.8A |  |
+|[1p13](https://pubs-acs-org.colorado.idm.oclc.org/doi/10.1021/bi0340503) | X-ray diffraction | 1.63A |  |
+|[1sha](https://www-nature-com.colorado.idm.oclc.org/articles/358646a0) | X-ray diffraction | 1.5A |  |
+|[1shb](https://www-nature-com.colorado.idm.oclc.org/articles/358646a0)| X-ray diffraction | 2.0A |  |
+|[1sps](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/009286749390405F?via%3Dihub) | X-ray diffraction | 2.7A |  |
 
 ## Syp
-
+| Domain | Method | Resolution | Kinetic Data |
+| -----|-----|-----|-----|
+|[1aya](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0969212600000447?via%3Dihub)| X-ray diffraction | 2.05A |  |
