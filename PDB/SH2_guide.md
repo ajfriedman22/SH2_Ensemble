@@ -19,12 +19,12 @@
 |[3s8o](https://www-ncbi-nlm-nih-gov.colorado.idm.oclc.org/pmc/articles/PMC3218293/) | X-ray diffraction | 1.85A | ACE pYKN NH2  | This paper focuses on the entropic and enthalpic effects of increasing the non-polar surface area of peptide residues bound to a sample protein. IC50 values for 5 peptides with non-natural amino acids can be found [here](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0065323302610058?via%3Dihub).|
 
 ## Lck
-| Domain | Method | Resolution | Kinetic Data |
-| -----|-----|-----|-----|
-|[1lcj](https://www-nature-com.colorado.idm.oclc.org/articles/362087a0) | X-ray diffraction | 1.8A |  |
-|[1lck](https://www-nature-com.colorado.idm.oclc.org/articles/368764a0) | X-ray diffraction | 2.5A |  |
-|[1lkk](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub)| X-ray diffraction | 1.0A |  |
-|[1lkl](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub) | X-ray diffraction | 1.8A |  |
+| Domain | Method | Resolution | Peptide Sequence | Paper Summary |
+| -----|-----|-----|-----|-----|
+|[1lcj](https://www-nature-com.colorado.idm.oclc.org/articles/362087a0) | X-ray diffraction | 1.8A | EPQpYEEIPIYL | |
+|[1lck](https://www-nature-com.colorado.idm.oclc.org/articles/368764a0) | X-ray diffraction | 2.5A | EPGpYQPQPA | " |
+|[1lkk](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub)| X-ray diffraction | 1.0A |  | |
+|[1lkl](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub) | X-ray diffraction | 1.8A |  | |
 
 ## p120RasGAP
 | Domain | Method | Resolution | Kinetic Data |
