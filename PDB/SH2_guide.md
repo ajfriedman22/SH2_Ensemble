@@ -21,10 +21,10 @@
 ## Lck
 | Domain | Method | Resolution | Peptide Sequence | Paper Summary |
 | -----|-----|-----|-----|-----|
-|[1lcj](https://www-nature-com.colorado.idm.oclc.org/articles/362087a0) | X-ray diffraction | 1.8A | EPQpYEEIPIYL | |
+|[1lcj](https://www-nature-com.colorado.idm.oclc.org/articles/362087a0) | X-ray diffraction | 1.8A | EPQpYEEIPIYL | Early (1993) paper focusing on the structure of the binding complex|
 |[1lck](https://www-nature-com.colorado.idm.oclc.org/articles/368764a0) | X-ray diffraction | 2.5A | EPGpYQPQPA | " |
-|[1lkk](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub)| X-ray diffraction | 1.0A |  | |
-|[1lkl](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub) | X-ray diffraction | 1.8A |  | |
+|[1lkk](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub)| X-ray diffraction | 1.0A |  ACE pYEEI | Early (1996) focusing on the structure of the binding complex|
+|[1lkl](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0022283696901126?via%3Dihub) | X-ray diffraction | 1.8A | ACE pYEEG | " |
 
 ## p120RasGAP
 | Domain | Method | Resolution | Kinetic Data |
