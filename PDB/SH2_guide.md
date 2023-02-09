@@ -4,7 +4,7 @@
 | Domain | Method | Resolution | Peptide Sequence | Paper Summary |
 | -----|-----|-----|-----|-----|
 |[1a0t](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0969212697002839?via%3Dihub) | NMR(1 conformer) | N\A | EPQpYEEIPIYL | Early(1997) paper focused on comparing binding structure. Peptide utilizes the "two-prong" binding interaction. |
-|[1aou](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0969212697002839?via%3Dihub) | NMR(22 conformers) | N\A | | " |
+|[1aou](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0969212697002839?via%3Dihub) | NMR(22 conformers) | N\A | EPQpYEEIPIYL | " |
 |[2mrj](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0969212616302660?via%3Dihub) | NMR(18 conformers) | N/A | | IC50 for Allosteric Rgulation of WT + 4 mutants |
 |[2mrk](https://www-sciencedirect-com.colorado.idm.oclc.org/science/article/pii/S0969212616302660?via%3Dihub) | NMR(27 conformers | N/A | | " |
 |4u1p | x-ray diffraction | 1.4A | N\A |
