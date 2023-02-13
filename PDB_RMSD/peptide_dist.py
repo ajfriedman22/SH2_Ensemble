@@ -21,7 +21,7 @@ file_ext = args.f
 
 #Load reference
 input_data = open(File_input, 'r').readlines()
-[ref, res_sh2_ref, res_pep_minus_ref, res_pep_plus_ref] = input_data[0].split()
+[ref, res_sh2_ref, res_sh2_anchor1_ref, res_sh2_anchor2_ref, res_pep_minus_ref, res_pep_plus_ref] = input_data[0].split()
 res_pep_ref = int(res_pep_plus_ref) + int(res_pep_minus_ref) + 1
 ref_pdb = md.load_pdb('../PDB/' + ref + '.pdb')
 
@@ -33,7 +33,7 @@ if len(PTR_ref_check) == 0:
 
 #Set up alignment indices
 #align_ind_ref = ref_pdb.topology.select('(resid > ' + str(res_sh2_ref_start) + ' and resid < ' + str(res_sh2_ref_end) + ' and backbone) or resid ' + str(PTR_ref))
-align_ind_ref = ref_pdb.topology.select('resid ' + str(PTR_ref) + ' and backbone')
+align_ind_ref = ref_pdb.topology.select('resid ' + str(PTR_ref) + ' and (name P or name O1P or name O2P or name O3P or name CA) or (resid ' + str(res_sh2_anchor1_ref) + ' and backbone) or (resid ' + str(res_sh2_anchor2_ref) + ' and backbone)')
 
 #Declare empty dataframe
 df = pd.DataFrame()
@@ -42,10 +42,10 @@ df = pd.DataFrame()
 Dis_all = []
 for line in range(1, len(input_data)):
     #Load data from line
-    [pdb, res_sh2, res_pep_minus, res_pep_plus] = input_data[line].split()
+    [pdb, res_sh2, res_sh2_anchor1, res_sh2_anchor2, res_pep_minus, res_pep_plus] = input_data[line].split()
 
     #Load pdb file
-    target_pdb = md.load_pdb('1qg1_align/' + pdb + '_align.pdb')
+    target_pdb = md.load_pdb('../PDB/' + pdb + '.pdb')
     res_pep = int(res_pep_minus)+int(res_pep_plus)+1
 
     #Identify location of PTR
@@ -58,12 +58,12 @@ for line in range(1, len(input_data)):
 
     #Set up alignment indices    
 #    align_ind_target = target_pdb.topology.select('(resid > ' + str(res_sh2_start) + ' and resid < ' + str(res_sh2_end) + ' and backbone) or resid ' + str(PTR))
-    align_ind_target = target_pdb.topology.select('resid ' + str(PTR) + ' and backbone')
+    align_ind_target = target_pdb.topology.select('resid ' + str(PTR) + ' and (name P or name O1P or name O2P or name O3P or name CA) or (resid ' + str(res_sh2_anchor1) + ' and backbone) or (resid ' + str(res_sh2_anchor2) + ' and backbone)')
 
     #Align on SH2 domain and PTR
     target_align = target_pdb.superpose(ref_pdb, atom_indices = align_ind_target, ref_atom_indices = align_ind_ref)
-#    ref_pdb.save('temp_ref.pdb')
-#    target_align.save('temp.pdb')
+    ref_pdb.save('temp_ref.pdb')
+    target_align.save('temp.pdb')
 
     #Set residue array for +/- in target
     res = np.linspace(PTR - int(res_pep_minus), PTR + int(res_pep_plus), res_pep)

@@ -4,7 +4,7 @@ import numpy as np
 import collections
 
 #Impiort data
-df = pd.read_csv('rmsd_all_sh2_PTR_align.csv')
+df = pd.read_csv('rmsd_sh2_PTR_align.csv')
 
 #get rows and columns
 num_row = len(df)
@@ -29,5 +29,7 @@ for i in range(num_row):
 position = ['-4', '-3', '-2', '-1', '0', '+1', '+2', '+3', '+4', '+5', '+6', '+7', '+8']
 plt.figure()
 plt.bar(position, rmsd_pos)
-plt.ylabel(r'RMSD ($\AA$)')
+plt.ylabel(r'Backbone RMSD ($\AA$)')
+plt.xlabel('Position Relative to pTYR')
+plt.title('Relative Flexibility of Peptide Residues')
 plt.savefig('sh2_rmsd_cmpr_sh2_PTR_align.png')
